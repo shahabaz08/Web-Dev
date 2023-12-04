@@ -1,0 +1,386 @@
+.nav-col{
+    color:#ff8033;
+}
+body
+{
+    background-position: fixed;
+    /* background-image: url("2.jpeg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box1
+{
+    width: 100vw;
+    position: fixed;
+}
+
+.features
+{
+    animation: fade-up 0.5s;
+}
+.navbar
+{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+.navbar a
+{
+    color: #013289;
+    transition: ease-in 0.2s;
+}
+.navbar a:hover
+{
+    color: #ff8033;
+}
+
+.h1-1
+{
+    color: #012970;
+    font-size: 48px;
+}
+.b1
+{
+    height: 450px;
+    width: 450px;
+}
+.hero1
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 300px;
+    animation: fade-up 0.5s;
+}
+.hero1 video
+{
+    height: 70vh;
+}
+.features-1
+{
+    display: flex;
+}
+.container video
+{
+    height: 70vh;
+}
+.hero-3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover
+{
+    transition:all 0.5s;
+    transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+    /* scale: 1.08; */
+
+}
+button:hover
+{
+    transition:all 0.5s;
+    transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+.hero-4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1-2
+{
+    color: #ff8033;
+}
+.img1
+{
+    max-height: 600px;
+    max-height: 600px;
+}
+.hero-4
+{
+    height: 60vh;
+    width: 40%;
+}
+.brands
+{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ff8033; */
+    margin-top: 30vh;
+}
+.h2-1
+{
+    height: 10vh;
+    width: 80vw;
+    color: #012970;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(82, 79, 79);
+}
+.logo1
+{
+    height: 6vh;
+    width: 6vw
+}
+.email-card
+{
+    margin-top: 20vh;
+}
+.email-but
+{
+    background-color: #ff8033;
+}
+footer 
+{
+    height: 70vh;
+    width: 100vw;
+}
+.ft-2 i
+{
+    font-size: x-large;
+    color: #ff8033;
+    margin-left: 20px;
+}
+footer i:hover
+{
+    transition: all 0.2s;
+    color: #012970;
+}
+@media(max-width:600px)
+{
+    .hero1{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+/* *******************************************************************Distribution***************************************************************** */
+
+.d1 
+{
+    height: 80vh;
+    width: 100vw;
+    background-image: url("images/distribution_img/d1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ff8033;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.d2 img
+{
+    height: 60vh;
+}
+
+
+/* ***********************************hall if fame************************ */
+
+.hof-top
+{
+    height: 40vh;
+    width: 45vw;
+    margin-left: 20vh;
+    margin-bottom: 15vh;
+}
+
+.hof1 div:hover
+{
+    transition: all 0.4s;
+    background-color: #ff8033;
+}
+
+
+/* *************************FAQ************************************************ */
+.QA
+{
+    width: 80vw;
+    height: 8vh;
+    border-bottom: 1px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ***********************Career***************************** */
+
+
+.Career
+{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.career1:hover
+{
+    transition: all 0.3s;
+    background-color: #ff8033;
+}
+
+
+/* *************************media **************************** */
+
+
+.media-img
+{
+    height: 60vh;
+    width: 100vw;
+    background-size: cover;
+}
+.media-img1 img
+{
+    height: 100%;
+    width: 60%;
+}
+
+
+/* *********************************************************** */
+
+.media-imgx
+{
+    height: 50vh;
+    width: 50%;
+    background-color: #ff8033;
+}
+.media-imgy
+{
+    height: 50vh;
+    width: 50%;
+    background-color: aqua;
+    object-fit: cover;
+    /* background-image: url("images/media/4.webp"); */
+}
+
+.media-imgy img
+{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+@media(max-width:780px)
+{
+    body
+    {
+        width: 100vw;
+
+    }
+    .ft-2 
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container 
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero img
+    {
+        /* width: 100vw; */
+    }
+    .container video
+    {
+        width: 100vw;
+    }
+    .features div 
+    {
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       margin-top: 20px;
+    }
+    .logos img
+    {
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       margin-top: 20px;
+    }
+    /* ********************************************************advertise************************ */
+
+    .d1
+    {
+        width: 100vw;
+    }
+    .d2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    .hof-top
+    {
+        margin: 0;
+        width: 100vw;
+        margin-bottom: 100px;
+        height: 50vh;
+    }
+
+
+     .hof1 div
+    {
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .mediax
+    {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .mediax img 
+    {
+        width: 100%;
+    }
+
+}
+
+@keyframes fade-up
+{
+    0%{
+        opacity: 0;
+        transform:translate(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform: translate((0px) scale(1));
+    }
+}
